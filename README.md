@@ -1,50 +1,5 @@
-# Welcome to your Expo app 👋
+For this project, I used GitHub Copilot to help build my React Native app. I don’t usually enjoy depending on Copilot for everything, because sometimes it suggests code that doesn’t fully match my structure or it takes a long time to think without giving a useful fix. When it comes to more complex logic, I still prefer writing the code myself so I understand exactly what’s happening.
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+But overall, Copilot was actually very helpful during this assignment — definitely more helpful than I expected. It saved a lot of time when creating boilerplate code and UI layout. For example, Copilot helped me quickly generate most of the styling, layout blocks, and repeated JSX components. It also helped with the initial structure of App.js, including the navigation setup and the way screens are organized. This made the setup process much faster and smoother.
 
-## Get started
-
-1. Install dependencies
-
-   ```bash
-   npm install
-   ```
-
-2. Start the app
-
-   ```bash
-   npx expo start
-   ```
-
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+In the end, even though Copilot isn’t perfect and sometimes needs adjustments, it was a useful tool for speeding up development, especially for design, styles, and getting the basic structure of the screens and navigation in place.
