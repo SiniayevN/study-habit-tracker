@@ -3,7 +3,7 @@ import { StyleSheet } from 'react-native';
 export const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#020617', // very dark slate
+  backgroundColor: '#ffffff', // changed to white
   },
   header: {
     paddingHorizontal: 16,
@@ -13,11 +13,11 @@ export const styles = StyleSheet.create({
   title: {
     fontSize: 24,
     fontWeight: '700',
-    color: '#e5e7eb',
+  color: '#000000',
   },
   subtitle: {
     fontSize: 14,
-    color: '#9ca3af',
+  color: '#374151',
     marginTop: 4,
   },
   sectionHeader: {
@@ -31,7 +31,7 @@ export const styles = StyleSheet.create({
   sectionTitle: {
     fontSize: 16,
     fontWeight: '600',
-    color: '#e5e7eb',
+  color: '#000000',
   },
   addButton: {
     paddingHorizontal: 12,
@@ -42,7 +42,7 @@ export const styles = StyleSheet.create({
   },
   addButtonText: {
     fontSize: 14,
-    color: '#22c55e',
+  color: '#166534',
     fontWeight: '500',
   },
   listContent: {
@@ -50,16 +50,16 @@ export const styles = StyleSheet.create({
     paddingBottom: 24,
   },
   habitCard: {
-    backgroundColor: '#020617',
-    borderRadius: 16,
-    borderWidth: 1,
-    borderColor: '#1f2937',
+  backgroundColor: '#ffffff',
+  borderRadius: 16,
+  borderWidth: 1,
+  borderColor: '#e5e7eb',
     padding: 12,
     marginVertical: 6,
   },
   habitCardCompleted: {
-    borderColor: '#22c55e',
-    backgroundColor: '#022c22',
+  borderColor: '#22c55e',
+  backgroundColor: '#ecfdf5',
   },
   habitRow: {
     flexDirection: 'row',
@@ -69,29 +69,29 @@ export const styles = StyleSheet.create({
   habitTitle: {
     fontSize: 16,
     fontWeight: '600',
-    color: '#f9fafb',
+  color: '#000000',
     flex: 1,
     marginRight: 12,
   },
   habitDetail: {
     marginTop: 4,
     fontSize: 13,
-    color: '#9ca3af',
+  color: '#6b7280',
   },
   statusBadge: {
     paddingHorizontal: 10,
     paddingVertical: 4,
     borderRadius: 999,
     borderWidth: 1,
-    borderColor: '#4b5563',
+  borderColor: '#d1d5db',
   },
   statusBadgeDone: {
-    borderColor: '#22c55e',
-    backgroundColor: '#065f46',
+  borderColor: '#22c55e',
+  backgroundColor: '#ecfdf5',
   },
   statusBadgeText: {
     fontSize: 12,
-    color: '#e5e7eb',
+  color: '#065f46',
   },
   emptyState: {
     flex: 1,
@@ -101,7 +101,7 @@ export const styles = StyleSheet.create({
   },
   emptyText: {
     textAlign: 'center',
-    color: '#9ca3af',
+  color: '#6b7280',
     fontSize: 14,
   },
   form: {
@@ -110,29 +110,29 @@ export const styles = StyleSheet.create({
   },
   label: {
     fontSize: 14,
-    color: '#e5e7eb',
+  color: '#111827',
     marginBottom: 4,
     marginTop: 12,
   },
   input: {
     borderRadius: 12,
     borderWidth: 1,
-    borderColor: '#1f2937',
+  borderColor: '#e5e7eb',
     paddingHorizontal: 12,
     paddingVertical: 10,
-    color: '#f9fafb',
+  color: '#000000',
     fontSize: 14,
-    backgroundColor: '#020617',
+  backgroundColor: '#ffffff',
   },
   saveButton: {
     marginTop: 20,
     borderRadius: 999,
     paddingVertical: 12,
     alignItems: 'center',
-    backgroundColor: '#22c55e',
+  backgroundColor: '#16a34a',
   },
   saveButtonText: {
-    color: '#022c22',
+  color: '#ffffff',
     fontWeight: '700',
     fontSize: 16,
   },
@@ -142,7 +142,7 @@ export const styles = StyleSheet.create({
     paddingVertical: 8,
   },
   cancelButtonText: {
-    color: '#9ca3af',
+  color: '#6b7280',
     fontSize: 14,
   },
 });
